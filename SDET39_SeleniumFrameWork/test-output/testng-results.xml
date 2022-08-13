@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T17:38:25 IST" name="Default suite" finished-at="2022-08-13T17:38:53 IST" duration-ms="28130">
+    <groups>
+      <group name="Smoke Testing">
+        <method signature="CreateCampaignNproduct2Test.createProAndCampaign()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" name="createProAndCampaign" class="com.crm.campaign.CreateCampaignNproduct2Test"/>
+      </group> <!-- Smoke Testing -->
+      <group name="Regression Testing">
+        <method signature="CreateCampaignNproduct2Test.createProAndCampaign()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" name="createProAndCampaign" class="com.crm.campaign.CreateCampaignNproduct2Test"/>
+      </group> <!-- Regression Testing -->
+    </groups>
+    <test started-at="2022-08-13T17:38:25 IST" name="Default test" finished-at="2022-08-13T17:38:53 IST" duration-ms="28130">
+      <class name="com.crm.campaign.CreateCampaignNproduct2Test">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:25 IST" name="BS" finished-at="2022-08-13T17:38:25 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:25 IST" name="BT" finished-at="2022-08-13T17:38:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:25 IST" name="BC" finished-at="2022-08-13T17:38:27 IST" duration-ms="2459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:27 IST" name="BM" finished-at="2022-08-13T17:38:31 IST" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="createProAndCampaign()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:31 IST" name="createProAndCampaign" finished-at="2022-08-13T17:38:53 IST" duration-ms="21654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProAndCampaign -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:53 IST" name="AM" finished-at="2022-08-13T17:38:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:53 IST" name="AC" finished-at="2022-08-13T17:38:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:53 IST" name="AT" finished-at="2022-08-13T17:38:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:com.crm.campaign.CreateCampaignNproduct2Test@3c7f66c4]" started-at="2022-08-13T17:38:53 IST" name="AS" finished-at="2022-08-13T17:38:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- com.crm.campaign.CreateCampaignNproduct2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
