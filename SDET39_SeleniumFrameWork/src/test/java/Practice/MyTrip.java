@@ -5,11 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import comcast.vtiger.genericUtility.WebDriver_Utility;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MyTrip
 {
   public static void main(String[] args)
   {
+	  WebDriverManager.chromedriver().setup();
 	  WebDriver driver=new ChromeDriver();
 	   driver.manage().window().maximize();
 	   WebDriver_Utility webLib=new WebDriver_Utility();
@@ -23,6 +25,7 @@ public class MyTrip
 			   driver.findElement(By.xpath("//p[text()='Gwalior, India']")).click();
 
 			   driver.findElement(By.xpath("//span[text()='DEPARTURE']")).click();
+			   
 			   String requiredMonth="november";
 			   String requiredYear="2022";
 			   String requiredDate="17";
@@ -37,5 +40,6 @@ public class MyTrip
 				   currentYear =currentMonthYear.split(" ")[1];
 			   }
 			   driver.findElement(By.xpath("(//p[.='"+requiredDate+"'])[1]"));
+  
   }
 }

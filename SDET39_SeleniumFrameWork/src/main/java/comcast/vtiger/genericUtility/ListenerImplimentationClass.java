@@ -31,19 +31,18 @@ public class ListenerImplimentationClass implements ITestListener
 	    File srcFile = edriver.getScreenshotAs(OutputType.FILE);
 
 	    	File destFile = new File("./SDET/Screenshots"+testname+".png");
-	    	try {
+	    	try
+	    	{
 				FileUtils.copyFile(srcFile, destFile);
 			}
 	    	catch (IOException e)
 	    	{
-
 				e.printStackTrace();
 			}
-
+	    	
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -8,6 +8,7 @@
       <class name="com.crm.SDET.organization.CreateOrgationzationGenTest"/>
       </classes>
       </test>
+      
       <test name="Test2">
        <parameter name="BROWSER" value="edge"></parameter>
       <classes>

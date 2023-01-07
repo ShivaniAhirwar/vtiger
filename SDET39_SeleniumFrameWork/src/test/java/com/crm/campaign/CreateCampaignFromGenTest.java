@@ -16,10 +16,10 @@ import comcast.vtiger.objectRepository.HomePage;
 public class CreateCampaignFromGenTest extends BaseClass
 {
 
-	@Test(groups={"Smoke Testing","Regression Testing"})
+	@Test(testName="CampaignTest", groups={"Smoke Testing","Regression Testing"})
 	public void createCampaign() throws Throwable
 	{
-
+		extentTest.info("opening the homepage");
 		   HomePage home=new HomePage(driver);
 		   home.moreLink(driver);
 
@@ -39,7 +39,7 @@ public class CreateCampaignFromGenTest extends BaseClass
 				CampaignValidation campVali=new CampaignValidation(driver);
 				String actualTitleOrg = campVali.actualOrgData();
 				Assert.assertEquals(actualTitleOrg.contains(campaignName),true);
-
+				extentTest.pass("test is pass");
 		     home.imgForSignOut();
 		     home.signOutLink();
 				 driver.close();

@@ -17,7 +17,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Campaign
+public class CampaignTest
 {
     public static void main(String[] args) throws IOException
     {

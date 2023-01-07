@@ -16,7 +16,7 @@ public class CreateDeleteProductGenTest extends BaseClass
 	@Test(groups= {"Smoke Testing","Regression Testing"})
 	 public void createDeletePro() throws Throwable
 	   {
-
+		extentTest.info("homepage opened");
 		 HomePage home=new HomePage(driver);
 		 home.productModule();
 
@@ -39,6 +39,7 @@ public class CreateDeleteProductGenTest extends BaseClass
 
 	 	   home.imgForSignOut();
 	 	   home.signOutLink();
+	 	  extentTest.pass("test got passed");
 	     driver.close();
 	   }
 }

@@ -17,6 +17,7 @@ public class ProductGenTest extends BaseClass
 	@Test(groups= {"Smoke Testing","Regression Testing"})
 	public void createProduct()throws Throwable
 	   {
+		extentTest.info("homepage opened");
 		HomePage homePage = new HomePage(driver);
 		  homePage.productModule();
 
@@ -39,7 +40,7 @@ public class ProductGenTest extends BaseClass
 		    String actualTitle = proTitle.actualProductData();
 
 		    Assert.assertEquals(actualTitle.contains(excelData),true);
-
+		    extentTest.pass("test got passed");
 		   home.imgForSignOut();
 		   home.signOutLink();
 		   driver.close();

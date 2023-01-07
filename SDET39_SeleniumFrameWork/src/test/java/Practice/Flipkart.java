@@ -20,7 +20,7 @@ public class Flipkart
     String browser=p.getProperty("url");
     String username=p.getProperty("un");
     String password=p.getProperty("pwd");
-
+    
     WebDriver driver=new ChromeDriver();
     driver.get(browser);
 

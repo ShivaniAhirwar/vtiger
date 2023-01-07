@@ -12,7 +12,6 @@ public class File_Utility
 			   p.load(fis);
 			   String value=p.getProperty(key);
 	           return value;
-
    }
 
 }

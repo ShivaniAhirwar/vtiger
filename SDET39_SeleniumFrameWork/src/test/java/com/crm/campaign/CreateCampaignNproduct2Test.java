@@ -21,8 +21,7 @@ public class CreateCampaignNproduct2Test extends BaseClass
 
 	public void createProAndCampaign() throws Throwable
 	{
-
-
+	extentTest.info("open homepage");	
 		HomePage home=new HomePage(driver);
 		  home.productModule();
 		  ProductPage addPro=new ProductPage(driver);
@@ -61,6 +60,7 @@ public class CreateCampaignNproduct2Test extends BaseClass
 				    CampaignValidation campVali=new CampaignValidation(driver);
 				    String actualTitleOrg = campVali.actualOrgData();
 				   Assert.assertEquals(actualTitleOrg.contains(campaignPage),true);
+				   extentTest.pass("test got passed");
 					   home.imgForSignOut();
 						home.signOutLink();
 					 driver.close();
